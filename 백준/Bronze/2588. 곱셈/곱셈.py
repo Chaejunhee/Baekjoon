@@ -1,0 +1,9 @@
+A=int(input())
+B=int(input())
+num_100=B//100
+num_10=B%100//10
+num_1=B%10
+print(A*num_1)
+print(A*num_10)
+print(A*num_100)
+print(A*B)
